@@ -8,7 +8,7 @@ class Page{
   final int lastItemIndex;
   final Results results;
 
-  Page(
+  const Page(
       {required this.count,
       required this.totalCount,
       required this.page,
